@@ -1,0 +1,100 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.body {
+    max-width: 2500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+.container1 {
+    position: relative;
+    display: flex;
+
+    justify-content: center;
+    align-items: center;
+}
+
+.backgroundImg {
+    width: 100%;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    position: absolute;
+    width: 100%;
+    top: 30px;
+
+}
+
+.HeaderText {
+    display: flex;
+    color: #FFFFFF;
+    gap: 30px;
+}
+
+.HeaderEnd {
+    background-color: #FFFFFF;
+    border-radius: 100%;
+    font-size: 14px;
+    padding: 5px;
+}
+
+.tourlogo img {
+    width: 101px;
+    height: 35px;
+}
+
+.container1Text {
+    color: #FFFFFF;
+    position: absolute;
+    top: 150px;
+    font-size: 70px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: "Bebas Neue", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.container1Text h5 {
+    color: #E8EDF2B8;
+}
+
+.container2 {
+    width: 1440px;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.LocationPhoto {
+    position: relative;
+}
+
+.photos1 {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+
+}
+
+.photos1 img {
+    width: 250px;
+    border-radius: 30px;
+    box-shadow: 7px 8px #29728B40, -7px -8px #1F72AA75;
+}
