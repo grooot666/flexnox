@@ -5,13 +5,14 @@
 }
 
 .body {
-    max-width: 2500px;
+   width: 2500px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 
 }
+
 
 
 .container1 {
@@ -273,7 +274,7 @@
     height: 1120px;
     background-image: url(./photos/Price&Footer\ image.png);
     position: absolute;
-    margin-top: 3411px;
+    margin-top: -4px;
 }
 
 .FooterText {
@@ -299,7 +300,7 @@
     height: 527px;
     background-color: #FAFBFC;
     border-radius: 40px;
-
+    position: relative;
 }
 
 .PriceBudget {
@@ -319,15 +320,17 @@
     width: 36px;
     margin-left: 30px;
 }
-.Price500 h1{
- color: #303030;
- font-size: 40px;
- font-family: "Montserrat", serif;
-  font-optical-sizing: auto;
-  font-weight: 600;
-  font-style: normal;
+
+.Price500 h1 {
+    color: #303030;
+    font-size: 40px;
+    font-family: "Montserrat", serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
 }
-.Price500 p{
+
+.Price500 p {
     font-size: 16px;
     color: #919191;
     font-family: "Inter", serif;
@@ -335,44 +338,133 @@
     font-weight: 550;
     font-style: normal;
 }
-.Price500{
+
+.Price500 {
     display: flex;
     flex-direction: column;
     gap: 10px;
+    margin-left: 35px;
 }
-.PriceText img{
+
+.PriceText img {
     width: 20px;
 }
-.Check{
+
+.Check {
     display: flex;
     gap: 20px;
     width: 336px;
-    height: 20px;
+    height: fit-content;
+    font-size: 17px;
 
 }
-.includes{
+
+.includes {
     font-size: 18px;
     font-family: "Inter", serif;
     font-optical-sizing: auto;
     font-weight: 550;
     font-style: normal;
+    margin-left: 80px;
+    margin-top: 32px;
+    display: flex;
+    width: 336px;
+    
 }
-.PriceText{
+
+.PriceText {
     display: flex;
     flex-direction: column;
     gap: 16px;
+    align-items: center;
 }
-.ContainerCheck{
+
+.ContainerCheck {
     display: flex;
     flex-direction: column;
     gap: 16px;
+    
 
 }
-.SelectPackage{
+
+.SelectPackage {
+
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     top: 30px;
+}
+
+.PriceContainer2 {
+    width: 384px;
+
+}
+
+.CheckHeight {
+    height: 34px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.SelectPackageButton {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 336px;
+    height: 48px;
+    background-color: #A4D1E2;
+    border: none;
+    border-radius: 30px;
+    font-family: "Inter", serif;
+    font-optical-sizing: auto;
+    font-weight: 550;
+    font-style: normal;
+    font-size: 15px;
+  
+}
+
+.containSelectPackage {
+    width: 384px;
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    top: 430px;
+}
+
+.container4Mid {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+
+}
+
+.container4full {
+    width: 1440px;
+    height: 170px;
+}
+
+.popular {
+    width: 91px;
+    height: 27px;
+    background-color: #6972B5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    color: #FAFBFC;
+    font-family: "Inter", serif;
+    font-optical-sizing: auto;
+    font-weight: 550;
+    font-style: normal;
+    font-size: 14px;
+  
+}
+.popularStyle{
+    display: flex;
+    align-items: center;
+    gap: 85px;
 }
 
