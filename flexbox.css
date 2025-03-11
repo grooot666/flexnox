@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+
 }
 
 .body {
@@ -9,15 +10,17 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
 }
 
-.bg-img {
+.bg-img1 {
     background-image: url(./photos/backgroundImg.png);
     display: flex;
     flex-direction: column;
     align-items: center;
     width: 1440px;
     height: 773px;
+    position: relative;
 }
 
 .container0 {
@@ -30,8 +33,8 @@
     justify-content: center;
     justify-content: space-between;
     align-items: center;
-     margin-top: 30px;
-     height: 43.5px;
+    margin-top: 30px;
+    height: 43.5px;
 
 }
 
@@ -41,7 +44,8 @@
     gap: 24px;
     font-size: 18px;
 }
-.HeaderText p{
+
+.HeaderText p {
     width: 100px;
     height: 22px;
 }
@@ -60,3 +64,289 @@
     height: 40px;
     border: none;
 }
+
+.container1Text {
+    width: 618px;
+    height: 394px;
+    position: absolute;
+    top: 169px;
+    left: 411.5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.container1Text h5 {
+    font-size: 80px;
+    color: #E8EDF2B8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80px;
+}
+
+.container1Text h1 {
+    font-size: 250px;
+    color: #FDFDFEFA;
+    height: 240px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container1Text p {
+    font-size: 64px;
+    color: #FFFFFFCC;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 64px;
+}
+
+.bg-img2 {
+    background-image: url(./photos/Location\ image.png);
+    width: 1440px;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.imgstyle {
+    box-shadow: 8px 8px #29728B40, -8px -8px #1F72AA75;
+    width: 275.49px;
+    height: 370px;
+    border-radius: 40px;
+
+
+
+}
+
+.imgcontainer:hover {
+    opacity: 1;
+}
+
+.imgs {
+    width: 1202px;
+    height: 370px;
+    display: flex;
+    gap: 40px;
+    align-items: center;
+    justify-content: center;
+
+
+}
+
+.imgtextContent {
+    position: absolute;
+    top: 0;
+    width: 275.49px;
+    height: 370px;
+    background-color: rgba(0, 0, 0, 0.3);
+    opacity: 0;
+    transition: 0.2s;
+    border-radius: 40px;
+
+}
+
+.imgcontainer {
+    position: relative;
+}
+
+.imgtextContent:hover {
+    opacity: 1;
+}
+
+.imgText {
+    position: absolute;
+    top: 150px;
+    left: 45px;
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 16px;
+    color: #FDFDFECC;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.bg-img3 {
+    background-image: url(./photos/Roadmap\ image.png);
+    width: 1440px;
+    height: 1022px;
+    position: relative;
+}
+.mapsTextContainer1{
+    width: 1440px;
+    height: 204px;
+   
+    display: flex;
+    justify-content: center;
+   
+}
+.Destination{
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 42px;
+    
+    
+}
+.Pack{
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 20px;
+    color: #18181BB2;
+}
+.mapsTextContainer2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    flex-direction: column;
+    top: 120px;
+    position: absolute;
+}
+.mapsContainer0{
+    width: 1200px;
+    height: 640px;
+    position: absolute;
+    top: 264px;
+    left: 120px;
+    display: flex;
+    justify-content: space-between;
+}
+.mapsContainer1{
+        width: 513px;
+        height: 640px;
+        display: flex;
+        gap: 20px;
+        flex-direction: column;
+}
+.mapsContainer2{
+    width: 647px;
+    height: 640px;
+}
+.SukhbaatarSquareBg{
+    width: 513px;
+    height: 112px;
+    border-radius: 59px;
+    border-style: solid;
+    border-color: #FFFFFF;
+    border-width: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    z-index: -1;
+    opacity: 0;
+    transition: 0.2s;
+    
+}
+.SukhbaatarSquareBg:hover{
+    opacity: 1;
+}
+
+.SukhbaatarSquare1{
+    background-color: #EEE9D9;
+    border-radius: 120px;
+    width: 513px;
+    height: 112px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    z-index: 1;
+   
+    
+}
+
+.SukhbaatarSquare2{
+    background-color: #8BB8C1CC;
+    border-radius: 120px;
+    width: 513px;
+    height: 112px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.SukhbaatarSquare3{
+    background-color: #AAD8D7CC;
+    border-radius: 120px;
+    width: 513px;
+    height: 112px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.SukhbaatarSquare4{
+    background-color: #8BC0BDCC;
+    border-radius: 120px;
+    width: 513px;
+    height: 112px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.SukhbaatarSquare5{
+    background-color: #97CCE0CC;
+    border-radius: 120px;
+    width: 513px;
+    height: 112px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pinIcon{
+     width: 14px;
+     height: 14px;
+}
+.iconContain{
+    display: flex;
+}
+.SukhbaatarText{
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    width: 217px;
+    height: 48px ;
+   
+}
+.D1{
+    background-color: #F7F6F3;
+    width: 52px;
+    height: 52px;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.SukhbaatarTextContain{
+    width: 438px;
+    height: 48px;
+    display: flex;
+    justify-content: space-between;
+    
+    align-items: center;
+}
+.SukhbaatarText h1{
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 24px;
+}
+
