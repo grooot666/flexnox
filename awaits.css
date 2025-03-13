@@ -1,44 +1,37 @@
 * {
-    margin: 0;
     padding: 0;
+    margin: 0;
     box-sizing: border-box;
-
-}
-
-.body{
-    
-    
 }
 
 .bg-img1 {
     background-image: url(./photos/backgroundImg.png);
     width: 100vw;
-    height: 100vh;
-   /* /* display: flex;
-    flex-direction: column;
-    align-items: center; */
-    position: relative;  */
- 
+    height: 1400px;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    position: relative;
 }
 
 .container0 {
     width: 1200px;
+    height: 100vh;
     display: flex;
-    align-items: center;
     justify-content: center;
+
 }
 
-
-.header {
+.header-container {
     display: flex;
     justify-content: center;
     justify-content: space-between;
     align-items: center;
     width: 1200px;
     height: 43.5px;
-   position: absolute;
-   top: 30px;
-
+    position: absolute;
+    top: 30px;
 
 }
 
@@ -54,7 +47,6 @@
     height: 22px;
 }
 
-
 .tourlogo img {
     width: 101px;
     height: 35px;
@@ -69,7 +61,7 @@
     border: none;
 }
 
-.container1Text {
+.container1 {
     position: absolute;
     width: 618px;
     height: 394px;
@@ -80,19 +72,11 @@
     align-items: center;
     font-family: "Bebas Neue", sans-serif;
     font-weight: 400;
-    font-style: normal; 
+    font-style: normal;
+
 }
 
-.container1Text h5 {
-    font-size: 80px;
-    color: #E8EDF2B8;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 80px;
-}
-
-.container1Text h1 {
+.container1 h1 {
     font-size: 250px;
     color: #FDFDFEFA;
     height: 240px;
@@ -101,7 +85,7 @@
     align-items: center;
 }
 
-.container1Text p {
+.container1 p {
     font-size: 64px;
     color: #FFFFFFCC;
     display: flex;
@@ -110,8 +94,32 @@
     height: 64px;
 }
 
+.container1 h5 {
+    font-size: 80px;
+    color: #E8EDF2B8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80px;
+}
+
 .bg-img2 {
-background-color: #9DB8DA33;
+
+    background-image: url(./photos/Location\ image.png);
+    width: 100vw;
+    height: 500px;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+}
+
+.container02 {
+    width: 1200px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 
 .imgstyle {
@@ -176,60 +184,23 @@ background-color: #9DB8DA33;
 
 .bg-img3 {
     background-image: url(./photos/Roadmap\ image.png);
-    width: screen;
-    height: screen;
+    width: 100vw;
+    height: 1600px;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
     position: relative;
 }
 
-.mapsTextContainer1 {
-    width: 1440px;
-    height: 204px;
-
-    display: flex;
-    justify-content: center;
-
-}
-
-.Destination {
-    font-family: "Inter", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: 400;
-    font-style: normal;
-    font-size: 42px;
-
-
-}
-
-.Pack {
-    font-family: "Inter", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: 400;
-    font-style: normal;
-    font-size: 20px;
-    color: #18181BB2;
-}
-
-.mapsTextContainer2 {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 10px;
-    flex-direction: column;
-    top: 120px;
-    position: absolute;
-}
-
-.mapsContainer0 {
+.container03 {
     width: 1200px;
-    height: 640px;
-    position: absolute;
-    top: 264px;
-    left: 120px;
     display: flex;
     justify-content: space-between;
+    position: absolute;
+    top: 264px;
 }
 
-.mapsContainer1 {
+.map-container1 {
     width: 513px;
     height: 640px;
     display: flex;
@@ -237,12 +208,35 @@ background-color: #9DB8DA33;
     flex-direction: column;
 }
 
-.mapsContainer2 {
+.map-container2 {
     width: 647px;
     height: 640px;
+}
+
+.map-text-container1 {
+    width: 1200px;
+    height: 204px;
     position: relative;
 }
 
+.map-text-container2 {
+    width: 1200px;
+    height: 85px;
+    position: absolute;
+    top: 120px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.map-text-container2 p {
+    color: #18181BB2;
+    font-size: 20px;
+    height: 42px;
+
+}
 
 .SukhbaatarSquare1 {
     background-color: #EEE9D9;
@@ -252,10 +246,52 @@ background-color: #9DB8DA33;
     display: flex;
     justify-content: center;
     align-items: center;
-
-
+    position: relative;
 }
 
+.SukhbaatarSquare2 {
+    background-color: #8BB8C1CC;
+    border-radius: 120px;
+    width: 513px;
+    height: 112px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.SukhbaatarSquare3 {
+    background-color: #AAD8D7CC;
+    border-radius: 120px;
+    width: 513px;
+    height: 112px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.SukhbaatarSquare4 {
+    background-color: #8BC0BDCC;
+    border-radius: 120px;
+    width: 513px;
+    height: 112px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.SukhbaatarSquare5 {
+    background-color: #97CCE0CC;
+    border-radius: 120px;
+    width: 513px;
+    height: 112px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
 
 .SukhbaatarSquare1:hover {
     border: 5px solid #FFFFFF;
@@ -283,45 +319,6 @@ background-color: #9DB8DA33;
     transition: 0.1s
 }
 
-.SukhbaatarSquare2 {
-    background-color: #8BB8C1CC;
-    border-radius: 120px;
-    width: 513px;
-    height: 112px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.SukhbaatarSquare3 {
-    background-color: #AAD8D7CC;
-    border-radius: 120px;
-    width: 513px;
-    height: 112px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.SukhbaatarSquare4 {
-    background-color: #8BC0BDCC;
-    border-radius: 120px;
-    width: 513px;
-    height: 112px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.SukhbaatarSquare5 {
-    background-color: #97CCE0CC;
-    border-radius: 120px;
-    width: 513px;
-    height: 112px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
 
 .pinIcon {
     width: 14px;
@@ -368,47 +365,107 @@ background-color: #9DB8DA33;
     font-size: 24px;
 }
 
-.BluePin {
-    width: 34px;
-    height: 34px;
+.sukhbaatar-photo img {
+    width: 245px;
+    height: 245px;
 }
 
-.PhotoSukhbaatarContain {
-    width: 245.34px;
-    height: 245px;
+.sukhbaatar-photo {
     position: absolute;
-    top: 86.38px;
-    left: 359px;
-
-
-}
-
-.PhotoSukhbaatar {
-    width: 245.34px;
-    height: 245px;
-    opacity: 1;
-}
-
-.PhotoSukhbaatar:hover {
+    left: 1142px;
+    top: 231px;
     opacity: 0;
-    transition: 0.1s;
+}
+
+.SukhbaatarSquare1:hover .sukhbaatar-photo {
+    opacity: 1;
+    transition: 0.2s;
+}
+
+.hiid-photo img {
+    width: 245px;
+    height: 245px;
+}
+
+.hiid-photo {
+    position: absolute;
+    left: 800px;
+    top: -164px;
+    opacity: 0;
+}
+
+.SukhbaatarSquare2:hover .hiid-photo {
+    opacity: 1;
+    transition: 0.2s;
+}
+
+.horgiintogoo-photo img {
+    width: 245px;
+    height: 245px;
+}
+
+.horgiintogoo-photo {
+    position: absolute;
+    left: 600px;
+    top: -150px;
+    opacity: 0;
+}
+
+.SukhbaatarSquare3:hover .horgiintogoo-photo {
+    opacity: 1;
+    transition: 0.2s;
+}
+
+.nuur1-photo img {
+    width: 245px;
+    height: 245px;
+}
+
+.nuur1-photo {
+    position: absolute;
+    left: 600px;
+    top: -600px;
+    opacity: 0;
+}
+
+.SukhbaatarSquare4:hover .nuur1-photo {
+    opacity: 1;
+    transition: 0.2s;
+}
+
+.nuur2-photo img {
+    width: 245px;
+    height: 245px;
+}
+
+.nuur2-photo {
+    position: absolute;
+    left: 770px;
+    top: -450px;
+    opacity: 0;
+}
+
+.SukhbaatarSquare5:hover .nuur2-photo {
+    opacity: 1;
+    transition: 0.2s;
 }
 
 .bg-img4 {
     background-image: url(./photos/Price&Footer\ image.png);
-    width: screen;
-    height: screen;
+    width: 100vw;
+    height: 1120px;
     display: flex;
     justify-content: center;
 
 }
-.PriceContainer0{
+
+.PriceContainer0 {
     width: 1200px;
     height: 575px;
     position: relative;
 }
 
-.PriceHeader{
+.PriceHeader {
     width: 1200px;
     height: 85px;
     display: flex;
@@ -416,26 +473,27 @@ background-color: #9DB8DA33;
     justify-content: center;
     position: absolute;
     top: 40px;
-    
-}   
 
-.PriceHeaderText{
+}
+
+.PriceHeaderText {
     display: flex;
     flex-direction: column;
     align-items: center;
     gap: 10px;
 }
 
-.PriceHeaderText h1{
-   
+.PriceHeaderText h1 {
+
     font-family: "Inter", sans-serif;
     font-optical-sizing: auto;
     font-weight: 400;
     font-style: normal;
     font-size: 42px;
-    
+
 }
-.PriceHeader p{
+
+.PriceHeader p {
     font-family: "Inter", sans-serif;
     font-optical-sizing: auto;
     font-weight: 400;
@@ -443,42 +501,54 @@ background-color: #9DB8DA33;
     font-size: 20px;
     color: #18181BB2;
 }
-.PackageCards{
+
+.PackageCards {
     width: 1200px;
     height: 527px;
     position: absolute;
     top: 204px;
+    display: flex;
+    gap: 24px;
 }
-.PackageCardOne{
+
+.PackageCardOne {
     width: 384px;
     height: 527px;
     border-radius: 40px;
     background-color: #FAFBFC;
-    
-    
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+
 }
-.PackageCardOne:hover{
+
+.PackageCardOne:hover {
     box-shadow: 10px 10px #29728B40, -10px -10px #2E414766;
 
 }
-.PackageCardOne:hover .StarterPackage{
+
+.PackageCardOne:hover .StarterPackage {
     background-color: #18181BE5;
 }
-.PackageCardOne:hover .StarterPackage h1{
+
+.PackageCardOne:hover .StarterPackage h1 {
     color: #FAFAFA;
 }
-.StarterPackage{
+
+.StarterPackage {
     width: 336px;
     height: 48px;
     border-radius: 20px;
     background-color: #A4D1E2;
 }
 
-.StarterPackageContainer{
+.StarterPackageContainer {
     display: flex;
     justify-content: center;
 }
-.StarterPackage{
+
+.StarterPackage {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -488,49 +558,158 @@ background-color: #9DB8DA33;
     font-weight: 400;
     font-style: normal;
 }
-.budget-container{
+
+.budget-container {
     width: 384px;
     height: 92px;
     display: flex;
     justify-content: center;
     align-items: center;
-    
+
 }
-.heart-photo{
+
+.heart-photo {
     width: 36px;
     height: 36px;
 }
-.budget-text h1{
- font-size: 16px;
- font-family: "Inter", sans-serif;
+
+.budget-text h1 {
+    font-size: 16px;
+    font-family: "Inter", sans-serif;
     font-optical-sizing: auto;
     font-weight: 400;
     font-style: normal;
 }
-.budget-container0{
+
+.budget-container0 {
     display: flex;
     align-items: center;
     gap: 16px;
-  width: 320px;
-  height: 92px;
+    width: 320px;
+    height: 92px;
 }
-.CardOneContainer{
+
+.CardOneContainer {
     width: 384px;
     height: 435px;
     display: flex;
     justify-content: center;
 }
-.CardOneContainer0{
+
+.CardOneContainer0 {
     width: 320px;
     height: 435px;
     display: flex;
     flex-direction: column;
-    justify-content: space-evenly;
+    gap: 30px;
 }
-.price-container{
+
+.price-container {
     height: 290px;
 }
-.bg-img2{
-    width: 100vh;
-    height: 100ph;
+
+.fivehundred {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.fivehundred h1 {
+    font-size: 40px;
+}
+
+.fivehundred p {
+    font-size: 16px;
+    color: #919191;
+}
+
+.includes {
+    font-size: 20px;
+}
+
+.includes-text {
+    display: flex;
+    gap: 20px;
+    font-size: 16px;
+    align-items: center;
+}
+
+.includes-text img {
+    width: 20px;
+    height: fit-content;
+}
+
+.includes-container {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.footer-container {
+    width: 1200px;
+    height: 204px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    bottom: -545px;
+}
+
+.footer {
+    width: 1200px;
+    height: 44px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.facebook {
+    width: 167px;
+    height: 44px;
+    border-radius: 18px;
+    background-color: #FAFBFC;
+
+}
+
+.instagram {
+    width: 167px;
+    height: 44px;
+    border-radius: 18px;
+    background-color: #FAFBFC;
+}
+
+.face-insta-container {
+    display: flex;
+    gap: 20px;
+}
+
+.footer-tour-logo img {
+    width: 101px;
+    height: 35px;
+}
+
+.face-insta-container img {
+    width: 24px;
+    height: 24px;
+
+}
+
+.face-insta-container {
+    color: #6972B5;
+    
+}
+.facebook {
+    display: flex;
+    align-items: center;
+    font-size: 10px;
+    gap: 10px;
+    justify-content: center;
+}
+
+.instagram{
+    display: flex;
+    align-items: center;
+    font-size: 10px;
+    gap: 10px;
+    justify-content: center;
 }
